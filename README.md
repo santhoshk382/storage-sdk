@@ -1,2 +1,25 @@
 # storage-sdk
-A reusable Node.js storage SDK supporting AWS S3, MinIO, and S3-compatible object storage providers with a unified abstraction layer.
+
+storage-sdk is a reusable and extensible object storage abstraction library for Node.js applications.
+
+It provides a unified API for working with:
+
+- AWS S3
+- MinIO
+- S3-compatible storage systems
+
+The SDK is designed for:
+
+- cloud deployments
+- on-prem deployments
+- hybrid infrastructure
+- reusable platform engineering
+
+Features include:
+
+- multipart uploads
+- streaming support
+- signed URLs
+- retry handling
+- provider abstraction
+- local development provider
